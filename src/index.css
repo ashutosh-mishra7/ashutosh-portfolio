@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------------
+   GLOBAL BASE
+--------------------------------*/
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+/* -----------------------------
+   SCROLLBAR HIDE
+--------------------------------*/
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* -----------------------------
+   TEXT SELECTION
+--------------------------------*/
+::selection {
+  background-color: rgba(37, 99, 235, 0.25);
+  color: #0f172a;
+}
+
+.dark ::selection {
+  background-color: rgba(245, 158, 11, 0.4);
+  color: #ffffff;
+}
+
+/* -----------------------------
+   GLASSMORPHISM (LIGHT + DARK)
+--------------------------------*/
+.glass {
+  @apply bg-white/60 backdrop-blur-2xl backdrop-saturate-150 border border-white/60;
+}
+
+.dark .glass {
+  @apply bg-slate-800/50 border-white/10;
+}
+
+/* -----------------------------
+   GRID BACKGROUND (DARK SUPPORT)
+--------------------------------*/
+.dark .grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px);
+}
+
+/* -----------------------------
+   FOCUS RING
+--------------------------------*/
+*:focus-visible {
+  outline: 2px solid rgba(37, 99, 235, 0.6);
+  outline-offset: 2px;
+}
+
+.dark *:focus-visible {
+  outline-color: rgba(245, 158, 11, 0.7);
+}
