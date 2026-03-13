@@ -27,11 +27,4 @@ export const certificatesData = [
     date: "2024",
     image: "/certificates/JS.jpeg",
   },
-   {
-    id: 5,
-    title: "javaScript",
-    issuer: "Namaste Dev",
-    date: "2024",
-    image: "/certificates/JS.jpeg",
-  },
 ]
