@@ -2,7 +2,7 @@
 
 A modern **Full Stack Developer Portfolio** built with **React + Vite + Tailwind CSS** to showcase my projects, skills, GitHub activity, and professional background.
 
-🌐 **Live Website:** https://your-vercel-link.vercel.app
+🌐 **Live Website:** https://infoashutosh.dev
 💻 **GitHub Repository:** https://github.com/ashutosh-mishra7/ashutosh-portfolio
 
 ---
