@@ -17,7 +17,7 @@ export const liveProjects = [
     description:
     "Task management application with clean UI and smooth interactions.",
     thumbnail: "/projects/Taskmanager.png",
-    live: "https://workzen-7.vercel.app/",
+    live: "https://workzen-7.vercel.app/login/",
     github: "https://github.com/ashutosh-mishra7/",
   },
   {
