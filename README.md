@@ -23,7 +23,7 @@ Hi, I'm **Ashutosh Mishra**, a **B.Tech Computer Science Engineering student** a
 * ⚡ Modern React + Vite setup
 * 🎨 Responsive UI using Tailwind CSS
 * 🧊 Glassmorphism modern design
-* 📊 Dynamic GitHub activity section
+* 📊 Dynamic GitHub activity section 
 * 📱 Fully responsive layout
 * 📂 Projects showcase
 * 📧 Contact section
