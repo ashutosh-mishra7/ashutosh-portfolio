@@ -40,20 +40,11 @@ export const liveProjects = [
     live: "https://example.com",
     github: "https://github.com/",
   },
-  {
-    id: 5,
-    name: "Weather App",
-    short: "Real-time weather application",
-    description:
-      "Weather app showing live temperature, forecast and location-based data.",
-    thumbnail: "/projects/weather.png",
-    live: "https://example.com",
-    github: "https://github.com/",
-  }
+  
 ]
 
 export const upcomingProjects = [
-  { id: 1, name: "AI Resume Builder" },
-  { id: 2, name: "College Community Platform" },
+  { id: 1, name: "E-commerce" },
+  { id: 2, name: "CRM SaaS platform" },
   { id: 3, name: "Startup Idea Hub" },
 ]

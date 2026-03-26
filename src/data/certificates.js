@@ -27,4 +27,11 @@ export const certificatesData = [
     date: "2024",
     image: "/certificates/JS.jpeg",
   },
+  {
+    id: 5,
+    title: "Claude Code",
+    issuer: "Anthropic",
+    date: "2026",
+    image: "/certificates/CC.png",
+  },
 ]
