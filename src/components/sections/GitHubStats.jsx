@@ -41,7 +41,7 @@ export default function GitHubStats() {
         {/* STATS */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <StatCard title="Repositories" value={stats?.repos} />
-          <StatCard title="GitHub Streak" value={stats?.streak ? `${stats.streak} Days` : "—"} />
+          <StatCard title="GitHub Streak" value={stats?.streak ? `${stats.streak}D` : "—"} />
           <StatCard title="Followers" value={stats?.followers} />
           <StatCard title="Consistency" value="Active" />
         </div>
