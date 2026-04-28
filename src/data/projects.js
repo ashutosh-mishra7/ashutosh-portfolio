@@ -37,7 +37,7 @@ export const liveProjects = [
     description:
     "Animated portfolio website built with modern frontend technologies.",
     thumbnail: "/projects/portfolio.png",
-    live: "https://example.com",
+    live: "https://infoashutosh.dev",
     github: "https://github.com/",
   },
   
